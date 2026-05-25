@@ -31,6 +31,10 @@ export default class EisenhowerMatrixPlugin extends Plugin {
             });
         });
     }
+
+    onunload() {
+        this.viewStateCache.clear();
+    }
 }
 
 class MatrixRenderChild extends MarkdownRenderChild {
