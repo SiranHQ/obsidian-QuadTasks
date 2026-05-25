@@ -88,7 +88,7 @@ class MatrixRenderChild extends MarkdownRenderChild {
             const match = line.match(taskRegex);
             if (match) {
                 this.tasks.push({
-                    id: Math.random().toString(36).substr(2, 9),
+                    id: Math.random().toString(36).substring(2, 11),
                     completed: match[1].toLowerCase() === 'x',
                     category: match[2].trim(),
                     text: match[3].trim()
@@ -333,7 +333,7 @@ class MatrixRenderChild extends MarkdownRenderChild {
         
         new CreateTaskModal(this.app, showBuffer, (result) => {
             this.tasks.push({
-                id: Math.random().toString(36).substr(2, 9),
+                id: Math.random().toString(36).substring(2, 11),
                 completed: false,
                 category: result.category,
                 text: result.text
