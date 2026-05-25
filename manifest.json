@@ -1,7 +1,7 @@
 {
 	"id": "quadtasks",
 	"name": "QuadTasks",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "A task management plugin based on the Eisenhower matrix.",
 	"author": "Parth",

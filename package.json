@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-quad-tasks",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A task management plugin based on the Eisenhower matrix.",
 	"main": "main.js",
 	"scripts": {
